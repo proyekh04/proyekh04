@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    font-family: "lucida Grande";
+ }
+
+ a {
+    text-decoration: none;
+  }
+
+ .images img{ 
+    width: 450px;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: auto;
+    background-size: cover;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.top-wrapper{
+    display: flex;
+    padding: 100px 0 100px 100px;
+    
+}
+  
+.top-wrapper h1{
+    font-size: 45px;
+    margin-bottom: 15px;
+    font-family: 'Poppins';
+    font-weight: 500 ;
+}
+
+.top-wrapper p{
+    opacity: 0.8;
+    margin-bottom: 40px;
+}
+
+.btn{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.btn-wrapper {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.Follow {
+      background-color: #ff9900;
+}
+
+.fa {
+    margin-right: 5px;
+}
+
+header {
+    height: 65px;
+    width: 100%;
+    background-color: #2f3542;
+}
+  
+.logo{
+    width: 124px;
+    margin-top: 20px;
+}
+
+.header-left{
+    float: left;
+}
+  
+
+.header-right{
+    float: right;
+    background-color: rgba(100, 128, 151, 0.829);
+    transition: all 0.5s;
+}
+
+.header-right:hover{
+      background-color: #ff9900;
+      
+}
+  
+.header-right a{
+    line-height: 65px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: rgb(236, 218, 218);
+    display: block;
+    
+}
+  
+.lesson-wrapper {
+    height: 500px;
+    padding-bottom: 80px;
+    background-color: #f7f7f7;
+    
+}
+
+.lesson {
+    float: left;
+    width: 25%;
+}
+
+.lesson-icon {
+    width: 30px;
+    height: 150px;
+
+}
